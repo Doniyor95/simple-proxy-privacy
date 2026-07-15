@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy — Simple Proxy</title>
+<style>
+  :root { --ink:#1a1a2e; --muted:#555; --line:#e2e2ea; --accent:#c47f00; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65; color: var(--ink); background: #fafafc;
+    margin: 0; padding: 40px 20px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; background: #fff; border: 1px solid var(--line);
+    border-radius: 12px; padding: 44px 40px; }
+  h1 { font-size: 28px; margin: 0 0 6px; }
+  .updated { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
+  h2 { font-size: 19px; margin: 32px 0 10px; padding-top: 8px; }
+  h3 { font-size: 16px; margin: 20px 0 6px; }
+  p, li { color: #2a2a35; font-size: 15px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  .note { background: #fff8ec; border: 1px solid #f0d9a8; border-radius: 8px; padding: 14px 16px; font-size: 14.5px; margin: 16px 0; }
+  code { background: #f2f2f6; padding: 2px 6px; border-radius: 5px; font-size: 14px; }
+  footer { margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Privacy Policy</h1>
+  <div class="updated">Simple Proxy &middot; Last updated: 9 July 2026</div>
+
+  <p>This Privacy Policy explains how <strong>Simple Proxy</strong> ("the App", "we", "us"), developed by <strong>DG-Studio</strong>, handles information when you use the App. By using Simple Proxy, you agree to the practices described here.</p>
+
+  <div class="note">
+    <strong>In short:</strong> Simple Proxy is a client that lets you connect through proxy servers <em>you</em> configure. We do not operate any proxy servers, we do not run any backend that receives your data, and your proxy credentials never leave your device. The only data collected is what our third-party providers (Google AdMob and Google Firebase) collect to serve ads and report crashes.
+  </div>
+
+  <h2>1. Information the App Handles</h2>
+
+  <h3>1.1 Proxy configuration (stored only on your device)</h3>
+  <p>When you add a proxy profile, the details you enter — server address, port, protocol, and optional username and password — are stored <strong>locally on your device only</strong>, in encrypted form. This information is never transmitted to us, never sent to any server we control, and never shared with third parties. Deleting a profile or uninstalling the App removes this data from your device.</p>
+
+  <h3>1.2 Your network traffic</h3>
+  <p>Simple Proxy uses Android's <code>VpnService</code> to route your device's traffic to the proxy server <em>you</em> configure. We do <strong>not</strong> read, log, store, inspect, or transmit the contents of your network traffic. Your traffic goes directly from your device to the proxy server you chose; we have no visibility into it and no access to it.</p>
+
+  <h3>1.3 Data collected by third-party services</h3>
+  <p>The App integrates the following third-party services, which may collect data automatically in accordance with their own privacy policies:</p>
+
+  <p><strong>Google AdMob</strong> — used to display advertisements. AdMob may collect a device advertising identifier, IP address, approximate (non-precise) location, and data about your interaction with ads, in order to serve and measure advertising. See Google's policy:
+  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a> and
+  <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">AdMob data disclosure</a>.</p>
+
+  <p><strong>Google Firebase Crashlytics</strong> — used to detect and diagnose app crashes so we can improve stability. When the App crashes, Crashlytics may collect a crash report including device model, operating system version, app state at the time of the crash, and a randomly generated installation identifier. It does not collect the contents of your proxy configuration or your network traffic. See:
+  <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">https://firebase.google.com/support/privacy</a>.</p>
+
+  <h2>2. How the Information Is Used</h2>
+  <ul>
+    <li>Proxy configuration is used solely to establish the connection you request, on your device.</li>
+    <li>AdMob data is used by Google to display and measure advertisements, which keep the App free.</li>
+    <li>Crashlytics data is used to identify, diagnose, and fix crashes and improve reliability.</li>
+  </ul>
+  <p>We (DG-Studio) do not sell your personal information, and we do not build advertising or marketing profiles about you.</p>
+
+  <h2>3. Advertising</h2>
+  <p>Simple Proxy is free and supported by advertising provided through Google AdMob, including banner ads and, optionally, rewarded video ads. Google may use the device advertising identifier to serve personalized ads. You can reset or limit ad personalization at any time in your device settings, under <em>Settings &rarr; Google &rarr; Ads</em>. For more information about how Google uses data for advertising, see
+  <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google's advertising policy</a>.</p>
+
+  <h2>4. Permissions</h2>
+  <p>The App requests the VPN permission (via Android <code>VpnService</code>) strictly to route your traffic to the proxy server you configure. This permission is only active while a connection is running and is never used to monitor your activity.</p>
+
+  <h2>5. Data Sharing</h2>
+  <p>We do not share your information with any parties other than the third-party service providers named above (Google AdMob and Google Firebase), and only to the extent those services collect data automatically as described. We may disclose information if required to do so by law.</p>
+
+  <h2>6. Data Retention</h2>
+  <p>Proxy configuration remains on your device until you delete it or uninstall the App. Data collected by AdMob and Firebase is retained according to Google's retention policies, linked above.</p>
+
+  <h2>7. Children's Privacy</h2>
+  <p>Simple Proxy is not directed to children under the age of 13 (or the minimum age required in your jurisdiction). We do not knowingly collect personal information from children. If you believe a child has provided information through the App, please contact us so we can address it.</p>
+
+  <h2>8. Your Rights</h2>
+  <p>Depending on your location, you may have rights under laws such as the GDPR (European Economic Area) or CCPA (California), including the right to access, correct, or delete personal data, and to opt out of personalized advertising. Because Simple Proxy does not maintain any server-side account or database about you, most data is controlled directly on your device or by Google. To exercise rights regarding data held by Google, please refer to Google's privacy policy. For anything else, contact us using the details below.</p>
+
+  <h2>9. Security</h2>
+  <p>Proxy credentials stored on your device are encrypted using the Android platform's secure storage mechanisms. However, no method of electronic storage is completely secure, and we cannot guarantee absolute security.</p>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last updated" date. Continued use of the App after changes take effect constitutes acceptance of the revised policy.</p>
+
+  <h2>11. Contact Us</h2>
+  <p>If you have any questions about this Privacy Policy, contact us at:</p>
+  <p>Email: <a href="mailto:doniyorjongulomov@gmail.com">doniyorjongulomov@gmail.com</a><br>
+  Developer: DG-Studio</p>
+
+  <footer>
+    &copy; 2026 DG-Studio. Simple Proxy. This policy applies only to the Simple Proxy application and not to any third-party proxy servers you may connect to, which are outside our control.
+  </footer>
+</div>
+</body>
+</html>
